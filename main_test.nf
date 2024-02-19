@@ -1,4 +1,9 @@
+
 #!/usr/bin/env nextflow
+
+
+params.curr_dir = """$PWD"""
+
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     nf-core/nextflow
@@ -116,34 +121,40 @@ process trigger {
 
 input: val(run_nbr)
 
-output: tuple val("fastq_file"), val("bamfile"), val("i_vcf_file")
+output: tuple path("fastq_file.fastq"), path("bamfile.fastq"), path("i_vcf_file.vcf")
 
 """
+cp /home/quirin/fastq_file.fastq fastq_file.fastq
+echo bla >/home/quirin/bamfile.fastq
+echo bla >/home/quirin/i_vcf_file.vcf
+cp /home/quirin/bamfile.fastq bamfile.fastq
+cp /home/quirin/i_vcf_file.vcf i_vcf_file.vcf
 """
 
 }
 
 process runFusionCatcher {
 
-input: val(bamfile)
+input: path(bamfile)
 
-output: val("outputX")
+output: path("outputX.txt")
 
 """
-echo "done"
+echo "done" >/home/quirin/git/nf_molpath/quirin/nf-core-nextflow/outputX.txt
+cp /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/outputX.txt outputX.txt
 """
 
 }
 
 process runArriba{
 
+input: path(bamfile)
 
-input: val(bamfile)
-
-output: val("outputY")
+output: path("outputY.txt")
 
 """
-echo "done"
+echo "done" >/home/quirin/git/nf_molpath/quirin/nf-core-nextflow/outputY.txt
+cp /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/outputY.txt outputY.txt
 """
 }
 
@@ -151,8 +162,8 @@ process runTranslocations{
 
 
 input:
-val(file1)
-val(file2)
+path(file1)
+path(file2)
 
 output: val("Done with translocation")
 
@@ -164,7 +175,7 @@ echo "done"
 
 process runMSI{
 
-input: val(bamfile)
+input: path(bamfile)
 
 output: val("Done MSI!")
 
@@ -176,13 +187,14 @@ script:
 
 process runMutect{
 
-input: val(bamfile)
+input: path(bamfile)
 
-output: val("m_vcf_file")
+output: path("m_vcf_file.txt")
 
 script:
 """
-echo "done"
+echo "done" >/home/quirin/git/nf_molpath/quirin/nf-core-nextflow/m_vcf_file.txt
+cp /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/m_vcf_file.txt m_vcf_file.txt
 """
 
 }
@@ -190,34 +202,40 @@ echo "done"
 process runNormalization{
 
 input:
-val(file1)
-val(file2)
+path(i_vcf_file)
+path(file2)
 
-output: val("vcf_file_1")
+output: path("vcf_file_1.txt")
 
 script:
 """
+echo done >/home/quirin/git/nf_molpath/quirin/nf-core-nextflow/vcf_file_1.txt
+cp /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/vcf_file_1.txt vcf_file_1.txt
 """
 }
 
 process mergevcf{
 
-input: val(vcf_file_1)
+input: path(vcf_file_1)
 
-output: val("vcf_merged")
+output: path("vcf_merged.txt")
 script:
 """
+echo done >/home/quirin/git/nf_molpath/quirin/nf-core-nextflow/vcf_merged.txt
+cp /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/vcf_merged.txt vcf_merged.txt
 """
 }
 
 process run_vep{
 
-input: val(vcf_merged)
+input: path(vcf_merged)
 
-output: val("vep_output")
+output: path("vep_output.txt")
 
 script:
 """
+echo done >/home/quirin/git/nf_molpath/quirin/nf-core-nextflow/vep_output.txt
+cp /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/vep_output.txt vep_output.txt
 """
 }
 
@@ -225,8 +243,8 @@ script:
 process runCNV{
 
 input:
-val(bamfile)
-val(vep_output)
+path(bamfile)
+path(vep_output)
 
 output: val("Done CNV running!")
 
@@ -237,7 +255,7 @@ script:
 
 process run_TERT_detection{
 
-input: val(vep_output)
+input: path(vep_output)
 
 output: val("Done TERT!")
 
@@ -248,7 +266,7 @@ script:
 
 process run_TMB{
 
-input: val(vep_output)
+input: path(vep_output)
 
 output: val("done TMB")
 
@@ -270,7 +288,7 @@ script:
 
 process run_mutsig{
 
-input: val(vep_output)
+input: path(vep_output)
 
 output: val("Done with running mutsig!")
 
@@ -282,12 +300,14 @@ script:
 
 process filter_vcf{
 
-input: val(vep_output)
+input: path(vep_output)
 
-output: val("filtered_vcf")
+output: path("filtered_vcf.txt")
 
 script:
 """
+echo done >/home/quirin/git/nf_molpath/quirin/nf-core-nextflow/filtered_vcf.txt
+cp /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/filtered_vcf.txt filtered_vcf.txt
 """
 }
 
@@ -317,8 +337,9 @@ workflow NFCORE_NEXTFLOW {
     fastq_file=outputs_1.map{it->it[0]}
     bamfile=outputs_1.map{it->it[1]}
     i_vcf_file=outputs_1.map{it->it[2]}
-    fastq_file_2=Channel.fromPath("/home/quirin/fastq_file.fastq").first()
-    fastq_output_file = runHLA(fastq_file_2).collect()
+    fastq_file.view()
+    /*fastq_file_2=Channel.fromPath("/home/quirin/fastq_file.fastq").first()*/
+    fastq_output_file = runHLA(fastq_file).collect()
     outputX = runFusionCatcher(bamfile).collect()
     outputY = runArriba(bamfile).collect()
     runTranslocations(outputX.first(),outputY.first())
