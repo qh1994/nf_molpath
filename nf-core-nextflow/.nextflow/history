@@ -1,0 +1,53 @@
+2024-02-14 11:42:01	-	sad_chandrasekhar	-	7c9a2fbd404fae653d12e14db823b378512fbb40	d888ed23-c4fe-42a6-870d-0a5506abd554	nextflow run nf-core/hlatyping
+2024-02-14 11:46:25	-	thirsty_snyder	-	f386c86657e404a29cbcebfec904a50b	6d9f6d0a-03f5-4f8a-849b-72512f8c7e44	nextflow run main.nf
+2024-02-14 11:51:54	-	goofy_easley	-	7c9a2fbd404fae653d12e14db823b378512fbb40	2ca34a1f-e571-4f0c-95a7-e43b1942d4a9	nextflow run nf-core/hlatyping
+2024-02-19 13:57:39	-	big_brazil	-	bb06d79e0edefe161b94dd407156d71a	ba007820-0055-4f15-b65b-99694356f6a6	nextflow run main.nf
+2024-02-19 13:57:54	-	cheesy_becquerel	-	da83df2706b47eaa239abf6b9b51914a	40bc6d07-511f-40c5-894d-8036ce076645	nextflow run main.nf
+2024-02-19 13:59:55	-	distracted_rubens	-	54d23a7a7a606d5da9ea20a6ce3174c4	e6399b8c-3987-459e-8998-29e2379ad7c7	nextflow run main.nf
+2024-02-19 14:01:01	-	stupefied_linnaeus	-	54d23a7a7a606d5da9ea20a6ce3174c4	6f80eb01-c8a3-4e67-bdbe-f1d200f05577	nextflow run main.nf --input bla --outdir bla
+2024-02-19 14:01:50	-	spontaneous_tesla	-	54d23a7a7a606d5da9ea20a6ce3174c4	0556635e-5ea9-49d4-8ab5-47f4794165a7	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2.csv
+2024-02-19 14:02:13	-	elated_wozniak	-	54d23a7a7a606d5da9ea20a6ce3174c4	5f346f31-b78b-49c6-9f9f-f7224d1ae1a5	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2
+2024-02-19 14:02:51	-	curious_banach	-	54d23a7a7a606d5da9ea20a6ce3174c4	c722b4ad-54ff-4e12-a643-0ffbd0ffdb21	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta genome.fa
+2024-02-19 14:03:46	-	insane_cantor	-	54d23a7a7a606d5da9ea20a6ce3174c4	8b6de230-dcd3-4e9c-8f4b-581b2dae035e	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:04:10	-	sleepy_mandelbrot	-	b537721ec807cb3b0f88f4d31113e4bf	1bd8d124-db68-4c40-8f6f-cac3ea59752d	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:04:40	-	cranky_swartz	-	fe0788f69886546c55b85440ce553c17	7065b94c-e047-4daf-980c-b85467669798	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:05:45	-	amazing_aryabhata	-	ca901144f0396d3fde60443690b85642	2185f15d-353c-4085-8fd6-e5ec8df29d00	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:06:17	-	ridiculous_curran	-	fe0788f69886546c55b85440ce553c17	e9134d76-23a1-42ec-896c-00877347d7b2	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:07:04	-	sleepy_volta	-	700b150c833827125812907614371004	de47813d-88f9-4752-8000-879b75fc54cb	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:07:20	-	agitated_bardeen	-	75b4fd1397c3810874d45dc9c6d4c71b	b4ee02d7-dcd0-477e-9693-f9e7d6472692	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:07:36	-	magical_coulomb	-	bb245c969ff7ca085cad2398923b7220	4feb1fb6-f807-4536-8d61-6568978055c8	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:07:54	-	elated_liskov	-	24f37d96c1ee702cd32625d08e385299	37176814-55ed-485b-b347-9f2249e7d17a	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:09:52	-	mighty_liskov	-	a85a0e58fbaf6c0c3eef6554fd3e48ba	32a6e7f3-cad5-4958-a101-cb6f8e68b84f	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:10:21	3.7s	determined_tesla	OK	6b993a9f69a3e0622c6bca23a4933a4d	05a231ce-2c45-4cf3-ba8f-e8eb7e4fb012	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:14:28	3s	naughty_allen	ERR	a8a5c8f4b783d59601af4e68717f8e45	31efff1b-4439-424a-8bdd-0a3564112e84	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:16:15	3.5s	stupefied_mirzakhani	ERR	b380cc5fb955bf617973a9b3eb192cee	5bdfce51-b71b-4461-977b-1fc84df1ca17	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:17:11	4s	soggy_swirles	OK	8c400d90ef3dd46128b4bdbd0b01ea00	942eb37e-4853-4cbc-94df-b056816544f1	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:17:46	3.6s	scruffy_brazil	OK	8c400d90ef3dd46128b4bdbd0b01ea00	b3d56d64-aeaa-4d86-a31d-f394e2431823	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:25:30	-	distraught_solvay	-	b9cc92c47ee81466777b441e75c27ec5	eeb0ca32-3864-4898-b6c8-d191a59f7c01	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:26:06	4.4s	irreverent_panini	OK	ce2c3a2d29811227338148edfd662ea0	c739608d-6f6f-4962-a6bb-98af0caad036	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:29:37	3.6s	condescending_mcclintock	OK	45abb3d0d37605de27259270afd1d633	637a5e6a-4a09-4067-9fde-5f198f345ddc	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:40:44	4.1s	irreverent_sanger	OK	51041c0ae759ebaffc33324fa693c941	22a2c63a-108b-4e4b-9679-91aff857e017	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:44:15	4.5s	pensive_elion	OK	49969ce50abcb820515f9a654ee0b642	9b1dc42f-57b7-4049-8267-ad68ee8786e0	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:45:47	4.2s	tender_joliot	OK	7b608a4e09e1341a4780c3d3d919201d	3063dbd6-331a-4527-9f49-d5147311e5d3	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:51:23	3.7s	awesome_payne	ERR	fa10ca5a2e2bdf2b2785ee84e620aa3b	2ec6cec2-a2bc-4726-bbcd-ab35f7d1d97d	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-19 14:52:09	4.1s	sad_engelbart	OK	ced76d46afc8ef87f043f364a061e789	2485b5a0-d254-4bb3-a047-e978580c523c	nextflow run main.nf --input /home/quirin/bla.csv --outdir /home/quirin/bla2 --fasta /home/quirin/test.fa
+2024-02-20 10:08:32	-	nasty_torricelli	-	c61be8df5bd046d6c85122d57c0cee69	dbbc60fe-4284-4e6d-b84c-3cb4010737b5	nextflow run main.nf
+2024-02-20 10:12:29	-	determined_raman	-	c61be8df5bd046d6c85122d57c0cee69	516cd005-eedd-42a3-aff9-fe2b08a7e775	nextflow run main.nf
+2024-02-20 10:13:11	-	big_cori	-	c61be8df5bd046d6c85122d57c0cee69	99efec04-25a0-4f23-9683-828abf793905	nextflow run main.nf
+2024-02-20 10:15:16	-	irreverent_ramanujan	-	c61be8df5bd046d6c85122d57c0cee69	e9ad4cb7-82eb-4a48-ad64-69194dfa72f6	nextflow run main.nf --input bla
+2024-02-20 10:16:45	-	suspicious_monod	-	c61be8df5bd046d6c85122d57c0cee69	ea1bb8fa-dd1d-415d-8344-08ae6a9586b1	nextflow run main.nf
+2024-02-20 10:17:13	-	gigantic_koch	-	c61be8df5bd046d6c85122d57c0cee69	3d5b319b-3476-445d-a411-83c0df9530be	nextflow run main.nf
+2024-02-20 10:17:46	-	desperate_picasso	-	c61be8df5bd046d6c85122d57c0cee69	70ded6ba-fbbb-4c0a-a329-5e626cac9541	nextflow run main.nf
+2024-02-20 10:19:53	-	astonishing_spence	-	c61be8df5bd046d6c85122d57c0cee69	d7b36557-7507-4572-9342-03b98b0fcc45	nextflow run main.nf
+2024-02-20 10:21:39	-	lonely_mirzakhani	-	5001629c81526d35de1775398a463147	351d8063-2440-4a59-a63a-7f90f19c38d1	nextflow run main.nf
+2024-02-20 10:24:45	-	furious_hypatia	-	5001629c81526d35de1775398a463147	efb32128-094d-44bf-bb48-69e87e38dbc3	nextflow run main.nf --input
+2024-02-20 10:25:41	-	marvelous_roentgen	-	5001629c81526d35de1775398a463147	29bc741c-5dac-4f79-8b1c-1cc482ae0c99	nextflow run main.nf --input
+2024-02-20 10:27:29	-	distraught_descartes	-	5001629c81526d35de1775398a463147	95faabf3-9543-401f-80e4-55b3465ec1a7	nextflow run main.nf --config nextflow.config
+2024-02-20 10:27:48	-	voluminous_goldstine	-	5001629c81526d35de1775398a463147	9e36fb0a-2b16-4429-9b27-dc74c8e1b00b	nextflow run main.nf -c nextflow.config
+2024-02-20 10:29:28	-	agitated_jepsen	-	88d4d23c253e3c393d95322df44f4159	8cdbef60-5da5-4d7a-8c73-bf5863352632	nextflow run main.nf -c nextflow.config
+2024-02-20 10:29:57	-	berserk_newton	-	f7d14076932cbb10e659e28cb1923607	f48f154d-686d-4e56-baa6-baf89ecc6e5e	nextflow run main.nf -c nextflow.config
+2024-02-20 10:30:18	-	extravagant_brenner	-	a56779e07ca6c0d3dc4a4073b59caaea	6c789c0c-4514-4f7a-ac54-0303a79e3a37	nextflow run main.nf -c nextflow.config
+2024-02-20 10:30:32	-	dreamy_yalow	-	a56779e07ca6c0d3dc4a4073b59caaea	da5cd0c8-2015-4f58-b4d2-c7be2c9c11d9	nextflow run main.nf
+2024-02-20 10:31:37	3.9s	chaotic_lamport	OK	7416d6eebe769a9822cb7161e89825a7	7d61d328-776a-42ce-a7a9-aa842651d9ca	nextflow run main.nf
+2024-02-20 10:32:25	3.7s	friendly_legentil	OK	4cebab12d7d97b6effc3710ffa668ff5	eef14ca6-b34e-4d94-8f88-c978ee986cec	nextflow run main.nf
+2024-02-20 10:36:17	4.5s	elegant_leibniz	OK	b53a31ce39ff397dd164c22df43067a4	29eb9d21-bbe6-40f5-873c-1acbf3ecf1a3	nextflow run main.nf

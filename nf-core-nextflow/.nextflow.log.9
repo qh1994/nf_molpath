@@ -1,0 +1,148 @@
+Feb-20 10:25:39.217 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --input
+Feb-20 10:25:39.315 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.0
+Feb-20 10:25:39.334 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/quirin/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.2,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.0
+Feb-20 10:25:39.344 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Feb-20 10:25:39.345 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Feb-20 10:25:39.349 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Feb-20 10:25:39.360 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Feb-20 10:25:39.378 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/nextflow.config
+Feb-20 10:25:39.379 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/nextflow.config
+Feb-20 10:25:39.402 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Feb-20 10:25:41.625 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Feb-20 10:25:41.642 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [marvelous_roentgen] DSL2 - revision: 5001629c81
+Feb-20 10:25:41.642 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins declared=[nf-validation@1.1.3]
+Feb-20 10:25:41.642 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Feb-20 10:25:41.642 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-validation@1.1.3]
+Feb-20 10:25:41.642 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-validation version: 1.1.3
+Feb-20 10:25:41.649 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-validation@1.1.3' resolved
+Feb-20 10:25:41.650 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-validation@1.1.3'
+Feb-20 10:25:41.657 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-validation@1.1.3
+Feb-20 10:25:41.665 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/quirin/.nextflow/secrets/store.json
+Feb-20 10:25:41.668 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@3b97907c] - activable => nextflow.secret.LocalSecretsProvider@3b97907c
+Feb-20 10:25:41.734 [main] DEBUG nextflow.Session - Session UUID: 29bc741c-5dac-4f79-8b1c-1cc482ae0c99
+Feb-20 10:25:41.734 [main] DEBUG nextflow.Session - Run name: marvelous_roentgen
+Feb-20 10:25:41.735 [main] DEBUG nextflow.Session - Executor pool size: 12
+Feb-20 10:25:41.742 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Feb-20 10:25:41.747 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-20 10:25:41.768 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.0 build 5889
+  Created: 15-10-2023 15:07 UTC (17:07 CEST)
+  System: Linux 6.5.0-18-generic
+  Runtime: Groovy 3.0.19 on OpenJDK 64-Bit Server VM 17.0.9+9-Ubuntu-122.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 8598@Molpath-NB [127.0.1.1]
+  CPUs: 12 - Mem: 15 GB (10.3 GB) - Swap: 2 GB (2 GB)
+Feb-20 10:25:41.793 [main] DEBUG nextflow.Session - Work-dir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work [ext2/ext3]
+Feb-20 10:25:41.812 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Feb-20 10:25:41.826 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Feb-20 10:25:41.877 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Feb-20 10:25:41.886 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Feb-20 10:25:41.958 [main] DEBUG nextflow.Session - Session start
+Feb-20 10:25:41.963 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/pipeline_info/execution_trace_2024-02-20_10-25-41.txt
+Feb-20 10:25:41.972 [main] DEBUG nextflow.Session - Using default localLib path: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/lib
+Feb-20 10:25:41.975 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/lib
+Feb-20 10:25:42.592 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Feb-20 10:25:42.608 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters, paramsHelp:paramsHelp]; plugin Id: nf-validation
+Feb-20 10:25:42.646 [main] WARN  nextflow.Nextflow - [nf-core/nextflow] You are attempting to run the pipeline without any custom configuration!
+
+This will be dependent on your local compute environment but can be achieved via one or more of the following:
+   (1) Using an existing pipeline profile e.g. `-profile docker` or `-profile singularity`
+   (2) Using an existing nf-core/configs for your Institution e.g. `-profile crick` or `-profile uppmax`
+   (3) Using your own local custom config e.g. `-c /path/to/your/custom.config`
+
+Please refer to the quick start section and usage docs for the pipeline.
+ 
+Feb-20 10:25:42.811 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog, paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Feb-20 10:25:42.830 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `monochromeLogs` -- Initialise it to a default value eg. `params.monochromeLogs = some_value`
+Feb-20 10:25:42.832 [main] INFO  nextflow.Nextflow - 
+
+-[2m----------------------------------------------------[0m-
+                                        [0;32m,--.[0;30m/[0;32m,-.[0m
+[0;34m        ___     __   __   __   ___     [0;32m/,-._.--~'[0m
+[0;34m  |\ | |__  __ /  ` /  \ |__) |__         [0;33m}  {[0m
+[0;34m  | \| |       \__, \__/ |  \ |___     [0;32m\`-._,-`-,[0m
+                                        [0;32m`._,._,'[0m
+[0;35m  nf-core/nextflow v1.0dev[0m
+-[2m----------------------------------------------------[0m-
+[1mCore Nextflow options[0m
+  [0;34mrunName    : [0;32mmarvelous_roentgen[0m
+  [0;34mlaunchDir  : [0;32m/home/quirin/git/nf_molpath/quirin/nf-core-nextflow[0m
+  [0;34mworkDir    : [0;32m/home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work[0m
+  [0;34mprojectDir : [0;32m/home/quirin/git/nf_molpath/quirin/nf-core-nextflow[0m
+  [0;34muserName   : [0;32mquirin[0m
+  [0;34mprofile    : [0;32mstandard[0m
+  [0;34mconfigFiles: [0;32m[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+-[2m----------------------------------------------------[0m-
+If you use nf-core/nextflow for your analysis please cite:
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+* Software dependencies
+  https://github.com/nf-core/nextflow/blob/master/CITATIONS.md
+
+Feb-20 10:25:42.835 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `fasta` -- Initialise it to a default value eg. `params.fasta = some_value`
+Feb-20 10:25:42.841 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_4d0f616213c1dcf2: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/./workflows/nextflow.nf
+  Script_03b864f3384a0e34: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/main.nf
+Feb-20 10:25:42.841 [main] DEBUG nextflow.Session - Session aborted -- Cause: Genome fasta file not specified with e.g. '--fasta genome.fa' or via a detectable config file.
+Feb-20 10:25:42.851 [main] ERROR nextflow.cli.Launcher - @unknown
+nextflow.exception.WorkflowScriptErrorException: Genome fasta file not specified with e.g. '--fasta genome.fa' or via a detectable config file.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at nextflow.Nextflow.error(Nextflow.groovy:226)
+	at nextflow.Nextflow$error.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at WorkflowNextflow.initialise(WorkflowNextflow.groovy:19)
+	at WorkflowNextflow$initialise.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at Script_4d0f616213c1dcf2.runScript(Script_4d0f616213c1dcf2:16)
+	at nextflow.script.BaseScript.run0(BaseScript.groovy:144)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:192)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:236)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:222)
+	at nextflow.script.IncludeDef.memoizedMethodPriv$loadModule0PathMapSession(IncludeDef.groovy:151)
+	at nextflow.script.IncludeDef.access$0(IncludeDef.groovy)
+	at nextflow.script.IncludeDef$__clinit__closure2.doCall(IncludeDef.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:274)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1030)
+	at groovy.lang.Closure.call(Closure.java:427)
+	at org.codehaus.groovy.runtime.memoize.Memoize$MemoizeFunction.lambda$call$0(Memoize.java:137)
+	at org.codehaus.groovy.runtime.memoize.ConcurrentCommonCache.getAndPut(ConcurrentCommonCache.java:137)
+	at org.codehaus.groovy.runtime.memoize.ConcurrentCommonCache.getAndPut(ConcurrentCommonCache.java:113)
+	at org.codehaus.groovy.runtime.memoize.Memoize$MemoizeFunction.call(Memoize.java:136)
+	at nextflow.script.IncludeDef.loadModule0(IncludeDef.groovy)
+	at nextflow.script.IncludeDef.load0(IncludeDef.groovy:123)
+	at nextflow.script.IncludeDef$load0$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at Script_03b864f3384a0e34.runScript(Script_03b864f3384a0e34:58)
+	at nextflow.script.BaseScript.run0(BaseScript.groovy:144)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:192)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:236)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:242)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:137)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:372)
+	at nextflow.cli.Launcher.run(Launcher.groovy:499)
+	at nextflow.cli.Launcher.main(Launcher.groovy:670)

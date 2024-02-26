@@ -1,0 +1,226 @@
+Feb-20 10:32:22.972 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
+Feb-20 10:32:23.078 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.0
+Feb-20 10:32:23.099 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/quirin/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.2,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.0
+Feb-20 10:32:23.110 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Feb-20 10:32:23.111 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Feb-20 10:32:23.115 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Feb-20 10:32:23.127 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Feb-20 10:32:23.147 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/nextflow.config
+Feb-20 10:32:23.148 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/nextflow.config
+Feb-20 10:32:23.172 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Feb-20 10:32:25.155 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Feb-20 10:32:25.171 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [friendly_legentil] DSL2 - revision: 4cebab12d7
+Feb-20 10:32:25.172 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins declared=[nf-validation@1.1.3]
+Feb-20 10:32:25.172 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Feb-20 10:32:25.172 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-validation@1.1.3]
+Feb-20 10:32:25.172 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-validation version: 1.1.3
+Feb-20 10:32:25.178 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-validation@1.1.3' resolved
+Feb-20 10:32:25.178 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-validation@1.1.3'
+Feb-20 10:32:25.186 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-validation@1.1.3
+Feb-20 10:32:25.193 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/quirin/.nextflow/secrets/store.json
+Feb-20 10:32:25.206 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@184823ed] - activable => nextflow.secret.LocalSecretsProvider@184823ed
+Feb-20 10:32:25.263 [main] DEBUG nextflow.Session - Session UUID: eef14ca6-b34e-4d94-8f88-c978ee986cec
+Feb-20 10:32:25.263 [main] DEBUG nextflow.Session - Run name: friendly_legentil
+Feb-20 10:32:25.264 [main] DEBUG nextflow.Session - Executor pool size: 12
+Feb-20 10:32:25.271 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Feb-20 10:32:25.276 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-20 10:32:25.297 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.0 build 5889
+  Created: 15-10-2023 15:07 UTC (17:07 CEST)
+  System: Linux 6.5.0-18-generic
+  Runtime: Groovy 3.0.19 on OpenJDK 64-Bit Server VM 17.0.9+9-Ubuntu-122.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 11334@Molpath-NB [127.0.1.1]
+  CPUs: 12 - Mem: 15 GB (10.2 GB) - Swap: 2 GB (2 GB)
+Feb-20 10:32:25.320 [main] DEBUG nextflow.Session - Work-dir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work [ext2/ext3]
+Feb-20 10:32:25.335 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Feb-20 10:32:25.345 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Feb-20 10:32:25.397 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Feb-20 10:32:25.408 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Feb-20 10:32:25.473 [main] DEBUG nextflow.Session - Session start
+Feb-20 10:32:25.478 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/pipeline_info/execution_trace_2024-02-20_10-32-25.txt
+Feb-20 10:32:25.488 [main] DEBUG nextflow.Session - Using default localLib path: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/lib
+Feb-20 10:32:25.491 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/lib
+Feb-20 10:32:26.055 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Feb-20 10:32:26.070 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters, paramsHelp:paramsHelp]; plugin Id: nf-validation
+Feb-20 10:32:26.099 [main] WARN  nextflow.Nextflow - [nf-core/nextflow] You are attempting to run the pipeline without any custom configuration!
+
+This will be dependent on your local compute environment but can be achieved via one or more of the following:
+   (1) Using an existing pipeline profile e.g. `-profile docker` or `-profile singularity`
+   (2) Using an existing nf-core/configs for your Institution e.g. `-profile crick` or `-profile uppmax`
+   (3) Using your own local custom config e.g. `-c /path/to/your/custom.config`
+
+Please refer to the quick start section and usage docs for the pipeline.
+ 
+Feb-20 10:32:26.252 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog, paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Feb-20 10:32:26.279 [main] INFO  nextflow.Nextflow - 
+
+-[2m----------------------------------------------------[0m-
+                                        [0;32m,--.[0;30m/[0;32m,-.[0m
+[0;34m        ___     __   __   __   ___     [0;32m/,-._.--~'[0m
+[0;34m  |\ | |__  __ /  ` /  \ |__) |__         [0;33m}  {[0m
+[0;34m  | \| |       \__, \__/ |  \ |___     [0;32m\`-._,-`-,[0m
+                                        [0;32m`._,._,'[0m
+[0;35m  nf-core/nextflow v1.0dev[0m
+-[2m----------------------------------------------------[0m-
+Core Nextflow options
+  runName    : friendly_legentil
+  launchDir  : /home/quirin/git/nf_molpath/quirin/nf-core-nextflow
+  workDir    : /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work
+  projectDir : /home/quirin/git/nf_molpath/quirin/nf-core-nextflow
+  userName   : quirin
+  profile    : standard
+  configFiles: 
+
+Input/output options
+  input      : bla.csv
+  outdir     : some_value
+
+Reference genome options
+  input      : bla.csv
+  fasta      : genome.fa
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+------------------------------------------------------
+If you use nf-core/nextflow for your analysis please cite:
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+* Software dependencies
+  https://github.com/nf-core/nextflow/blob/master/CITATIONS.md
+
+Feb-20 10:32:26.779 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.779 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.786 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Feb-20 10:32:26.791 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=15 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Feb-20 10:32:26.793 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Feb-20 10:32:26.884 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.885 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.891 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.891 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.896 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.897 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.904 [main] WARN  nextflow.extension.OperatorImpl - The operator `first` is useless when applied to a value channel which returns a single value by definition -- check channel `outputX`
+Feb-20 10:32:26.917 [main] WARN  nextflow.extension.OperatorImpl - The operator `first` is useless when applied to a value channel which returns a single value by definition -- check channel `outputY`
+Feb-20 10:32:26.921 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.921 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.926 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.926 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.930 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.930 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.937 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.937 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.946 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.946 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.950 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.951 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.954 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.955 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.959 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.959 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.963 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.964 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.968 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.968 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.973 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.973 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.979 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.979 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.986 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:32:26.986 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:32:26.989 [main] DEBUG nextflow.Session - Config process names validation disabled as requested
+Feb-20 10:32:26.990 [main] DEBUG nextflow.Session - Igniting dataflow network (21)
+Feb-20 10:32:26.996 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:trigger
+Feb-20 10:32:26.998 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:runHLA
+Feb-20 10:32:26.998 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:runFusionCatcher
+Feb-20 10:32:26.998 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:runArriba
+Feb-20 10:32:26.998 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:runTranslocations
+Feb-20 10:32:26.998 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:runMSI
+Feb-20 10:32:26.999 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:runMutect
+Feb-20 10:32:26.999 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:runNormalization
+Feb-20 10:32:26.999 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:mergevcf
+Feb-20 10:32:26.999 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:run_vep
+Feb-20 10:32:26.999 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:runCNV
+Feb-20 10:32:26.999 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:run_TERT_detection
+Feb-20 10:32:26.999 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:run_TMB
+Feb-20 10:32:26.999 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:run_pVACtools
+Feb-20 10:32:27.000 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:run_mutsig
+Feb-20 10:32:27.001 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:filter_vcf
+Feb-20 10:32:27.001 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEXTFLOW:triggerOutput
+Feb-20 10:32:27.002 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_4d0f616213c1dcf2: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/./workflows/nextflow.nf
+  Script_c5a72c341f8ce080: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/main.nf
+  Script_ad258e03fe211798: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/./workflows/../modules/nf-core/custom/dumpsoftwareversions/main.nf
+  Script_71add437d9e6d9eb: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/./workflows/../modules/nf-core/multiqc/main.nf
+  Script_4ba798786ecd6418: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/./workflows/../modules/nf-core/fastqc/main.nf
+  Script_88dc8507fd402371: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/./workflows/../subworkflows/local/../../modules/local/samplesheet_check.nf
+  Script_3e1ccb830dfd5a49: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/./workflows/../subworkflows/local/input_check.nf
+Feb-20 10:32:27.002 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Feb-20 10:32:27.002 [main] DEBUG nextflow.Session - Session await
+Feb-20 10:32:27.146 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.150 [Task submitter] INFO  nextflow.Session - [b9/938406] Submitted process > NFCORE_NEXTFLOW:trigger (1)
+Feb-20 10:32:27.237 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: NFCORE_NEXTFLOW:trigger (1); status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/b9/938406530579f90b2b1e65f9b81eb7]
+Feb-20 10:32:27.265 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-20 10:32:27.309 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.309 [Task submitter] INFO  nextflow.Session - [09/d3cd5b] Submitted process > NFCORE_NEXTFLOW:runMSI
+Feb-20 10:32:27.321 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.322 [Task submitter] INFO  nextflow.Session - [a0/8bec53] Submitted process > NFCORE_NEXTFLOW:runFusionCatcher
+Feb-20 10:32:27.396 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: NFCORE_NEXTFLOW:runMSI; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/09/d3cd5b28bef402283a816bcdb69e6f]
+Feb-20 10:32:27.400 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.401 [Task submitter] INFO  nextflow.Session - [ec/249a1f] Submitted process > NFCORE_NEXTFLOW:runMutect
+Feb-20 10:32:27.404 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: NFCORE_NEXTFLOW:runFusionCatcher; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/a0/8bec53587a5b91d93034da0d28b1e1]
+Feb-20 10:32:27.409 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.409 [Task submitter] INFO  nextflow.Session - [7b/d5c0a8] Submitted process > NFCORE_NEXTFLOW:runArriba
+Feb-20 10:32:27.481 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: NFCORE_NEXTFLOW:runMutect; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/ec/249a1f9f10362f2cb02cb934ea82b7]
+Feb-20 10:32:27.487 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.488 [Task submitter] INFO  nextflow.Session - [2f/4d88c7] Submitted process > NFCORE_NEXTFLOW:runHLA
+Feb-20 10:32:27.492 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: NFCORE_NEXTFLOW:runArriba; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/7b/d5c0a8534f345b31a9213d39f1c266]
+Feb-20 10:32:27.504 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.504 [Task submitter] INFO  nextflow.Session - [d3/b7efda] Submitted process > NFCORE_NEXTFLOW:runNormalization
+Feb-20 10:32:27.566 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: NFCORE_NEXTFLOW:runHLA; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/2f/4d88c7d7056d3589b45f92f99b1ee2]
+Feb-20 10:32:27.570 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.571 [Task submitter] INFO  nextflow.Session - [ae/d404c7] Submitted process > NFCORE_NEXTFLOW:runTranslocations
+Feb-20 10:32:27.580 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: NFCORE_NEXTFLOW:runNormalization; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/d3/b7efdadb3cd64c9cb58067f68821bc]
+Feb-20 10:32:27.591 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.592 [Task submitter] INFO  nextflow.Session - [a9/476af6] Submitted process > NFCORE_NEXTFLOW:mergevcf
+Feb-20 10:32:27.652 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: NFCORE_NEXTFLOW:runTranslocations; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/ae/d404c7510a7d63776987b789c0d75f]
+Feb-20 10:32:27.667 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: NFCORE_NEXTFLOW:mergevcf; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/a9/476af63607e1ec01d418609dd9bdab]
+Feb-20 10:32:27.675 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.676 [Task submitter] INFO  nextflow.Session - [8b/0c8e35] Submitted process > NFCORE_NEXTFLOW:run_vep
+Feb-20 10:32:27.752 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: NFCORE_NEXTFLOW:run_vep; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/8b/0c8e35bb52374a437ff91693a52e1f]
+Feb-20 10:32:27.760 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.760 [Task submitter] INFO  nextflow.Session - [0c/bc5933] Submitted process > NFCORE_NEXTFLOW:run_pVACtools
+Feb-20 10:32:27.767 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.768 [Task submitter] INFO  nextflow.Session - [de/e94a4e] Submitted process > NFCORE_NEXTFLOW:run_mutsig
+Feb-20 10:32:27.829 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: NFCORE_NEXTFLOW:run_pVACtools; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/0c/bc59331680895b05a0fd82471bf5bc]
+Feb-20 10:32:27.832 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.833 [Task submitter] INFO  nextflow.Session - [c4/29ea12] Submitted process > NFCORE_NEXTFLOW:run_TMB
+Feb-20 10:32:27.839 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: NFCORE_NEXTFLOW:run_mutsig; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/de/e94a4e9436fa5aa224b4a0a24f9fab]
+Feb-20 10:32:27.842 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.843 [Task submitter] INFO  nextflow.Session - [4f/b42cee] Submitted process > NFCORE_NEXTFLOW:runCNV
+Feb-20 10:32:27.905 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: NFCORE_NEXTFLOW:run_TMB; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/c4/29ea12ada3793f62e3d474d4ca8159]
+Feb-20 10:32:27.909 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.910 [Task submitter] INFO  nextflow.Session - [c8/d024d2] Submitted process > NFCORE_NEXTFLOW:filter_vcf
+Feb-20 10:32:27.918 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: NFCORE_NEXTFLOW:runCNV; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/4f/b42ceeb3bb61003245a55b78329ce4]
+Feb-20 10:32:27.923 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.923 [Task submitter] INFO  nextflow.Session - [2e/fe0ac0] Submitted process > NFCORE_NEXTFLOW:run_TERT_detection
+Feb-20 10:32:27.983 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: NFCORE_NEXTFLOW:filter_vcf; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/c8/d024d28cb85734d4b2d2dba406dac3]
+Feb-20 10:32:27.994 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-20 10:32:27.995 [Task submitter] INFO  nextflow.Session - [99/ffc32c] Submitted process > NFCORE_NEXTFLOW:triggerOutput
+Feb-20 10:32:27.998 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 16; name: NFCORE_NEXTFLOW:run_TERT_detection; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/2e/fe0ac0053575c0df2418dedf6b2fc4]
+Feb-20 10:32:28.064 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 17; name: NFCORE_NEXTFLOW:triggerOutput; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/99/ffc32cd9b0b3e2887758c3bd631495]
+Feb-20 10:32:28.065 [main] DEBUG nextflow.Session - Session await > all processes finished
+Feb-20 10:32:28.067 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Feb-20 10:32:28.067 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Feb-20 10:32:28.070 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Feb-20 10:32:28.098 [main] INFO  nextflow.Nextflow - -[0;35m[nf-core/nextflow][0;32m Pipeline completed successfully[0m-
+Feb-20 10:32:28.101 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=17; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=92ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=12 GB; ]
+Feb-20 10:32:28.102 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Feb-20 10:32:28.103 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Feb-20 10:32:28.500 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Feb-20 10:32:28.739 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Feb-20 10:32:28.740 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-validation@1.1.3'
+Feb-20 10:32:28.740 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-validation
+Feb-20 10:32:28.764 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Feb-20 10:32:28.766 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

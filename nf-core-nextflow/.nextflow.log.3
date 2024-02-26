@@ -1,0 +1,99 @@
+Feb-20 10:30:29.940 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
+Feb-20 10:30:30.037 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.0
+Feb-20 10:30:30.055 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/quirin/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.2,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.0
+Feb-20 10:30:30.065 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Feb-20 10:30:30.066 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Feb-20 10:30:30.069 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Feb-20 10:30:30.079 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Feb-20 10:30:30.097 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/nextflow.config
+Feb-20 10:30:30.098 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/nextflow.config
+Feb-20 10:30:30.119 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Feb-20 10:30:32.043 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Feb-20 10:30:32.060 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [dreamy_yalow] DSL2 - revision: a56779e07c
+Feb-20 10:30:32.060 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins declared=[nf-validation@1.1.3]
+Feb-20 10:30:32.060 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Feb-20 10:30:32.061 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-validation@1.1.3]
+Feb-20 10:30:32.061 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-validation version: 1.1.3
+Feb-20 10:30:32.067 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-validation@1.1.3' resolved
+Feb-20 10:30:32.068 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-validation@1.1.3'
+Feb-20 10:30:32.075 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-validation@1.1.3
+Feb-20 10:30:32.082 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/quirin/.nextflow/secrets/store.json
+Feb-20 10:30:32.085 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@5927f904] - activable => nextflow.secret.LocalSecretsProvider@5927f904
+Feb-20 10:30:32.148 [main] DEBUG nextflow.Session - Session UUID: da5cd0c8-2015-4f58-b4d2-c7be2c9c11d9
+Feb-20 10:30:32.148 [main] DEBUG nextflow.Session - Run name: dreamy_yalow
+Feb-20 10:30:32.149 [main] DEBUG nextflow.Session - Executor pool size: 12
+Feb-20 10:30:32.156 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Feb-20 10:30:32.162 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-20 10:30:32.183 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.0 build 5889
+  Created: 15-10-2023 15:07 UTC (17:07 CEST)
+  System: Linux 6.5.0-18-generic
+  Runtime: Groovy 3.0.19 on OpenJDK 64-Bit Server VM 17.0.9+9-Ubuntu-122.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 9634@Molpath-NB [127.0.1.1]
+  CPUs: 12 - Mem: 15 GB (10.2 GB) - Swap: 2 GB (2 GB)
+Feb-20 10:30:32.206 [main] DEBUG nextflow.Session - Work-dir: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work [ext2/ext3]
+Feb-20 10:30:32.221 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Feb-20 10:30:32.230 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Feb-20 10:30:32.285 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Feb-20 10:30:32.295 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Feb-20 10:30:32.360 [main] DEBUG nextflow.Session - Session start
+Feb-20 10:30:32.364 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/pipeline_info/execution_trace_2024-02-20_10-30-31.txt
+Feb-20 10:30:32.372 [main] DEBUG nextflow.Session - Using default localLib path: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/lib
+Feb-20 10:30:32.375 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/quirin/git/nf_molpath/quirin/nf-core-nextflow/lib
+Feb-20 10:30:32.971 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Feb-20 10:30:32.985 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters, paramsHelp:paramsHelp]; plugin Id: nf-validation
+Feb-20 10:30:33.005 [main] WARN  nextflow.Nextflow - [nf-core/nextflow] You are attempting to run the pipeline without any custom configuration!
+
+This will be dependent on your local compute environment but can be achieved via one or more of the following:
+   (1) Using an existing pipeline profile e.g. `-profile docker` or `-profile singularity`
+   (2) Using an existing nf-core/configs for your Institution e.g. `-profile crick` or `-profile uppmax`
+   (3) Using your own local custom config e.g. `-c /path/to/your/custom.config`
+
+Please refer to the quick start section and usage docs for the pipeline.
+ 
+Feb-20 10:30:33.177 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog, paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Feb-20 10:30:33.196 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `monochromeLogs` -- Initialise it to a default value eg. `params.monochromeLogs = some_value`
+Feb-20 10:30:33.199 [main] INFO  nextflow.Nextflow - 
+
+-[2m----------------------------------------------------[0m-
+                                        [0;32m,--.[0;30m/[0;32m,-.[0m
+[0;34m        ___     __   __   __   ___     [0;32m/,-._.--~'[0m
+[0;34m  |\ | |__  __ /  ` /  \ |__) |__         [0;33m}  {[0m
+[0;34m  | \| |       \__, \__/ |  \ |___     [0;32m\`-._,-`-,[0m
+                                        [0;32m`._,._,'[0m
+[0;35m  nf-core/nextflow v1.0dev[0m
+-[2m----------------------------------------------------[0m-
+[1mCore Nextflow options[0m
+  [0;34mrunName    : [0;32mdreamy_yalow[0m
+  [0;34mlaunchDir  : [0;32m/home/quirin/git/nf_molpath/quirin/nf-core-nextflow[0m
+  [0;34mworkDir    : [0;32m/home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work[0m
+  [0;34mprojectDir : [0;32m/home/quirin/git/nf_molpath/quirin/nf-core-nextflow[0m
+  [0;34muserName   : [0;32mquirin[0m
+  [0;34mprofile    : [0;32mstandard[0m
+  [0;34mconfigFiles: [0;32m[0m
+
+[1mInput/output options[0m
+  [0;34minput      : [0;32mbla.csv[0m
+
+[1mReference genome options[0m
+  [0;34minput      : [0;32mbla.csv[0m
+  [0;34mfasta      : [0;32mgenome.fa[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+-[2m----------------------------------------------------[0m-
+If you use nf-core/nextflow for your analysis please cite:
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+* Software dependencies
+  https://github.com/nf-core/nextflow/blob/master/CITATIONS.md
+
+Feb-20 10:30:33.654 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:30:33.654 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-20 10:30:33.660 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Feb-20 10:30:33.665 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=15 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Feb-20 10:30:33.668 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Feb-20 10:30:33.787 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-20 10:30:33.787 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'

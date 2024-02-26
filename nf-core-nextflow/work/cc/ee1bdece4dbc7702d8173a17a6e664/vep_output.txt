@@ -1,0 +1,1 @@
+/home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/01/f8db09aca67a279e354382e2110592/vep_output.txt

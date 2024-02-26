@@ -1,0 +1,1 @@
+/home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/bc/d6bd6a1c7c824371dae70607c7e8b7/vcf_file_1.txt

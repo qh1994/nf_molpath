@@ -1,0 +1,1 @@
+/home/quirin/git/nf_molpath/quirin/nf-core-nextflow/work/7b/d5c0a8534f345b31a9213d39f1c266/outputY.txt
