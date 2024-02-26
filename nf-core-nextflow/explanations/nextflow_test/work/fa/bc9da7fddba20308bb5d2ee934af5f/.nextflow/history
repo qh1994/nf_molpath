@@ -1,0 +1,1 @@
+2024-01-10 11:22:12	-	stoic_hamilton	-	4581e56269b4efc979f7eebfa0c96f5e	6d7da95d-fb92-4dec-b420-a5c2e3443813	nextflow run /home/quirin/Desktop/nextflow_test/workflow1.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt

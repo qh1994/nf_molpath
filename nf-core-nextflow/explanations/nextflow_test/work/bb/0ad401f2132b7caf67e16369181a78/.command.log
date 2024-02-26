@@ -1,0 +1,27 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `phytoy.nf` [sleepy_northcutt] DSL2 - revision: efdd4878f1
+WARN: `params.pwd` is defined multiple times -- Assignments following the first are ignored
+[-        ] process > align          -
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (1)
+[50/6f81fa] process > align (1)      [  0%] 0 of 1
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (1)
+[50/6f81fa] process > align (1)      [  0%] 0 of 1
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[50/6f81fa] process > align (1)      [100%] 1 of 1 ✔
+[70/484a11] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[50/6f81fa] process > align (1)      [100%] 1 of 1 ✔
+[70/484a11] process > get_raxml_tree [100%] 1 of 1 ✔
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+

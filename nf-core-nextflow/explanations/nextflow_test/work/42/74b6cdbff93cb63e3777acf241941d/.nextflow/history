@@ -1,0 +1,1 @@
+2024-01-10 12:07:02	8.2s	mighty_kare	OK	b0b202c8f007e16a3686125af24de698	5e224561-574b-4fb0-a41e-fc22e1c92c9d	nextflow run /home/quirin/Desktop/nextflow_test/phytoy-nf-master/phytoy.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt --pwd /home/quirin/Desktop/nextflow_test/phytoy-nf-master

@@ -1,0 +1,1 @@
+2024-01-10 11:37:26	3.1s	festering_rosalind	OK	86f7260d46b0b7965e82280ed2daf295	b4fe1ece-042c-4737-b9bb-548037caa59c	nextflow run /home/quirin/Desktop/nextflow_test/workflow1.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt --curr_dir /home/quirin/Desktop/nextflow_test

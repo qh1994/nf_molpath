@@ -1,0 +1,1 @@
+2024-01-10 11:29:13	3s	gigantic_williams	OK	4581e56269b4efc979f7eebfa0c96f5e	cd4b08a5-87cb-40f3-aa4f-e5ae285b518c	nextflow run /home/quirin/Desktop/nextflow_test/workflow1.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt --curr_dir /home/quirin/Desktop/nextflow_test

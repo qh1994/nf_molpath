@@ -1,0 +1,90 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `phytoy.nf` [dreamy_brown] DSL2 - revision: 2fd44884c3
+[-        ] process > align          -
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (1)
+[c0/46947d] process > align (1)      [  0%] 0 of 1
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[c0/46947d] process > align (1)      [100%] 1 of 1 ✔
+[9b/4a639d] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[c0/46947d] process > align (1)      [100%] 1 of 1 ✔
+[9b/4a639d] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+ERROR ~ Error executing process > 'get_raxml_tree'
+
+Caused by:
+  Process `get_raxml_tree` terminated with an error exit status (255)
+
+Command executed:
+
+  raxmlHPC -f d -j -p 9 -T 0 -m PROTGAMMALG -s test.phy -n test
+
+Command exit status:
+  255
+
+Command output:
+  Use raxml with AVX support with overriden number of threads
+  
+  The number of threads is currently set to 0
+  Specify the number of threads to run via -T numberOfThreads
+  NumberOfThreads must be set to an integer value greater than 1
+
+Command error:
+  Use raxml with AVX support with overriden number of threads
+  
+  The number of threads is currently set to 0
+  Specify the number of threads to run via -T numberOfThreads
+  NumberOfThreads must be set to an integer value greater than 1
+
+Work dir:
+  /home/quirin/Desktop/nextflow_test/phytoy-nf-master/work/9b/4a639d2953472cff33d09263355952
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+ -- Check '.nextflow.log' file for details
+
+executor >  local (2)
+[c0/46947d] process > align (1)      [100%] 1 of 1 ✔
+[9b/4a639d] process > get_raxml_tree [100%] 1 of 1, failed: 1 ✘
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+ERROR ~ Error executing process > 'get_raxml_tree'
+
+Caused by:
+  Process `get_raxml_tree` terminated with an error exit status (255)
+
+Command executed:
+
+  raxmlHPC -f d -j -p 9 -T 0 -m PROTGAMMALG -s test.phy -n test
+
+Command exit status:
+  255
+
+Command output:
+  Use raxml with AVX support with overriden number of threads
+  
+  The number of threads is currently set to 0
+  Specify the number of threads to run via -T numberOfThreads
+  NumberOfThreads must be set to an integer value greater than 1
+
+Command error:
+  Use raxml with AVX support with overriden number of threads
+  
+  The number of threads is currently set to 0
+  Specify the number of threads to run via -T numberOfThreads
+  NumberOfThreads must be set to an integer value greater than 1
+
+Work dir:
+  /home/quirin/Desktop/nextflow_test/phytoy-nf-master/work/9b/4a639d2953472cff33d09263355952
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+ -- Check '.nextflow.log' file for details
+

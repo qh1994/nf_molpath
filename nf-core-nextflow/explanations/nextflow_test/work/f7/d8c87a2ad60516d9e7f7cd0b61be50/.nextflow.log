@@ -1,0 +1,80 @@
+Jan-10 12:11:13.451 [main] DEBUG nextflow.cli.Launcher - $> nextflow run /home/quirin/Desktop/nextflow_test/phytoy-nf-master/phytoy.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt --pwd /home/quirin/Desktop/nextflow_test/phytoy-nf-master
+Jan-10 12:11:13.537 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.0
+Jan-10 12:11:13.565 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/root/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.2,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.0
+Jan-10 12:11:13.580 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jan-10 12:11:13.581 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jan-10 12:11:13.586 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jan-10 12:11:13.600 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jan-10 12:11:13.622 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /home/quirin/Desktop/nextflow_test/phytoy-nf-master/nextflow.config
+Jan-10 12:11:13.625 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/quirin/Desktop/nextflow_test/phytoy-nf-master/nextflow.config
+Jan-10 12:11:13.655 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jan-10 12:11:14.411 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Jan-10 12:11:14.467 [main] INFO  nextflow.cli.CmdRun - Launching `/home/quirin/Desktop/nextflow_test/phytoy-nf-master/phytoy.nf` [magical_lumiere] DSL2 - revision: b0b202c8f0
+Jan-10 12:11:14.468 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jan-10 12:11:14.468 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jan-10 12:11:14.481 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /root/.nextflow/secrets/store.json
+Jan-10 12:11:14.487 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@68d7a2df] - activable => nextflow.secret.LocalSecretsProvider@68d7a2df
+Jan-10 12:11:14.567 [main] DEBUG nextflow.Session - Session UUID: 3cad5553-12d4-4e98-9263-6b509481def1
+Jan-10 12:11:14.567 [main] DEBUG nextflow.Session - Run name: magical_lumiere
+Jan-10 12:11:14.568 [main] DEBUG nextflow.Session - Executor pool size: 12
+Jan-10 12:11:14.578 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jan-10 12:11:14.586 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jan-10 12:11:14.620 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.0 build 5889
+  Created: 15-10-2023 15:07 UTC (17:07 CEST)
+  System: Linux 6.2.0-39-generic
+  Runtime: Groovy 3.0.19 on OpenJDK 64-Bit Server VM 17.0.9+9-Ubuntu-122.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 21940@Molpath-NB [127.0.1.1]
+  CPUs: 12 - Mem: 15 GB (9.3 GB) - Swap: 2 GB (2 GB)
+Jan-10 12:11:14.656 [main] DEBUG nextflow.Session - Work-dir: /home/quirin/Desktop/nextflow_test/work/f7/d8c87a2ad60516d9e7f7cd0b61be50/work [ext2/ext3]
+Jan-10 12:11:14.656 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/quirin/Desktop/nextflow_test/phytoy-nf-master/bin
+Jan-10 12:11:14.671 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jan-10 12:11:14.684 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jan-10 12:11:14.712 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jan-10 12:11:14.726 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Jan-10 12:11:14.817 [main] DEBUG nextflow.Session - Session start
+Jan-10 12:11:15.586 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jan-10 12:11:15.760 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-10 12:11:15.760 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-10 12:11:15.767 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jan-10 12:11:15.774 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=15 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Jan-10 12:11:15.778 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jan-10 12:11:15.899 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-10 12:11:15.900 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-10 12:11:15.906 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: get_raxml_tree, align
+Jan-10 12:11:15.907 [main] DEBUG nextflow.Session - Igniting dataflow network (3)
+Jan-10 12:11:15.915 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > align
+Jan-10 12:11:15.917 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > get_raxml_tree
+Jan-10 12:11:15.917 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_59eb0ad86661be8a: /home/quirin/Desktop/nextflow_test/phytoy-nf-master/phytoy.nf
+Jan-10 12:11:15.917 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jan-10 12:11:15.918 [main] DEBUG nextflow.Session - Session await
+Jan-10 12:11:15.921 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/; pattern: *.tfa; options: [:]
+Jan-10 12:11:16.206 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-10 12:11:16.209 [Task submitter] INFO  nextflow.Session - [ea/892451] Submitted process > align (4)
+Jan-10 12:11:16.221 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-10 12:11:16.222 [Task submitter] INFO  nextflow.Session - [d7/efb33a] Submitted process > align (1)
+Jan-10 12:11:16.230 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-10 12:11:16.231 [Task submitter] INFO  nextflow.Session - [ae/c40dae] Submitted process > align (5)
+Jan-10 12:11:16.240 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-10 12:11:16.242 [Task submitter] INFO  nextflow.Session - [d6/beea66] Submitted process > align (2)
+Jan-10 12:11:16.250 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-10 12:11:16.251 [Task submitter] INFO  nextflow.Session - [4c/1bce5c] Submitted process > align (3)
+Jan-10 12:11:17.654 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: align (1); status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/Desktop/nextflow_test/work/f7/d8c87a2ad60516d9e7f7cd0b61be50/work/d7/efb33a2da45f03b7c54848e7ea9a01]
+Jan-10 12:11:17.762 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: align (4); status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/Desktop/nextflow_test/work/f7/d8c87a2ad60516d9e7f7cd0b61be50/work/ea/892451e06fcbeddda770a7028f53ac]
+Jan-10 12:11:18.132 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: align (3); status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/Desktop/nextflow_test/work/f7/d8c87a2ad60516d9e7f7cd0b61be50/work/4c/1bce5ca2f5c5479f4cf1c368ad46b0]
+Jan-10 12:11:18.243 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: align (5); status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/Desktop/nextflow_test/work/f7/d8c87a2ad60516d9e7f7cd0b61be50/work/ae/c40dae9c3fad7fbdb968ea7f5826b7]
+Jan-10 12:11:18.248 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: align (2); status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/Desktop/nextflow_test/work/f7/d8c87a2ad60516d9e7f7cd0b61be50/work/d6/beea660117a1d09481a57d47d3b116]
+Jan-10 12:11:18.271 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-10 12:11:18.272 [Task submitter] INFO  nextflow.Session - [0c/dafe7d] Submitted process > get_raxml_tree
+Jan-10 12:11:19.264 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: get_raxml_tree; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/Desktop/nextflow_test/work/f7/d8c87a2ad60516d9e7f7cd0b61be50/work/0c/dafe7dfc4059dae876f14822305f8f]
+Jan-10 12:11:19.281 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jan-10 12:11:19.284 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jan-10 12:11:19.285 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Jan-10 12:11:19.285 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jan-10 12:11:19.289 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Jan-10 12:11:19.299 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=6; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=10.4s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=5; peakCpus=5; peakMemory=0; ]
+Jan-10 12:11:19.496 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jan-10 12:11:19.510 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Jan-10 12:11:19.511 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

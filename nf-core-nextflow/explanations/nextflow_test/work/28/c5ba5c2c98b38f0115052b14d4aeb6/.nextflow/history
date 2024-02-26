@@ -1,0 +1,1 @@
+2024-01-10 11:36:58	2.6s	silly_pauling	ERR	bc5f1182814c2164ba18aff7fe4cd4fb	251924be-38ba-4f24-a487-aa19a0f83960	nextflow run /home/quirin/Desktop/nextflow_test/workflow1.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt --curr_dir /home/quirin/Desktop/nextflow_test

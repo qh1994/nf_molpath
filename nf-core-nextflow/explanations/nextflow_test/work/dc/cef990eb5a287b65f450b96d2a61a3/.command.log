@@ -1,0 +1,24 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `phytoy.nf` [infallible_torricelli] DSL2 - revision: f4b15db7e5
+[-        ] process > align -
+
+executor >  local (1)
+[e9/0e07a5] process > align (1)      [  0%] 0 of 1
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[e9/0e07a5] process > align (1)      [100%] 1 of 1 ✔
+[8d/cfd00c] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[e9/0e07a5] process > align (1)      [100%] 1 of 1 ✔
+[8d/cfd00c] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[e9/0e07a5] process > align (1)      [100%] 1 of 1 ✔
+[8d/cfd00c] process > get_raxml_tree [100%] 1 of 1 ✔
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+

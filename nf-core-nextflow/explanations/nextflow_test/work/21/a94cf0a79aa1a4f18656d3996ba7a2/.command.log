@@ -1,0 +1,26 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `phytoy.nf` [gigantic_hopper] DSL2 - revision: b910c6f7eb
+[-        ] process > align          -
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (1)
+[0b/f87b37] process > align (1)      [  0%] 0 of 1
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[0b/f87b37] process > align (1)      [100%] 1 of 1 ✔
+[62/530a0c] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[0b/f87b37] process > align (1)      [100%] 1 of 1 ✔
+[62/530a0c] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[0b/f87b37] process > align (1)      [100%] 1 of 1 ✔
+[62/530a0c] process > get_raxml_tree [100%] 1 of 1 ✔
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+

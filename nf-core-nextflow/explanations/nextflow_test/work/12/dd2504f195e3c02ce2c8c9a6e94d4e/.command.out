@@ -1,0 +1,49 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `/home/quirin/Desktop/nextflow_test/workflow1.nf` [festering_rosalind] DSL2 - revision: 86f7260d46
+[-        ] process > rep_column -
+[-        ] process > multiply   -
+Next Fibonacci Number:
+1
+Next Fibonacci Number:
+2
+Next Fibonacci Number:
+3
+Next Fibonacci Number:
+5
+220
+220
+220
+220
+
+executor >  local (2)
+[6d/90ff4c] process > rep_column [  0%] 0 of 1
+[d0/621b3e] process > multiply   [100%] 1 of 1 ✔
+Next Fibonacci Number:
+1
+Next Fibonacci Number:
+2
+Next Fibonacci Number:
+3
+Next Fibonacci Number:
+5
+220
+220
+220
+220
+
+executor >  local (2)
+[6d/90ff4c] process > rep_column [100%] 1 of 1 ✔
+[d0/621b3e] process > multiply   [100%] 1 of 1 ✔
+Next Fibonacci Number:
+1
+Next Fibonacci Number:
+2
+Next Fibonacci Number:
+3
+Next Fibonacci Number:
+5
+220
+220
+220
+220
+

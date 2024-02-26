@@ -1,0 +1,5 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `/home/quirin/Desktop/nextflow_test/phytoy-nf-master/phytoy.nf` [infallible_hilbert] DSL2 - revision: b0b202c8f0
+[-        ] process > align          -
+[-        ] process > get_raxml_tree -
+

@@ -1,0 +1,1 @@
+2024-01-10 11:30:26	2.8s	insane_meitner	OK	4581e56269b4efc979f7eebfa0c96f5e	a2f9d6be-2a5d-4e42-8592-e1133be5082f	nextflow run /home/quirin/Desktop/nextflow_test/workflow1.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt --curr_dir /home/quirin/Desktop/nextflow_test

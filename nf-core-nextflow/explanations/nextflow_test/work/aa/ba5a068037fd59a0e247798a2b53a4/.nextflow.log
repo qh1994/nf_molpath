@@ -1,0 +1,36 @@
+Jan-10 11:18:46.164 [main] DEBUG nextflow.cli.Launcher - $> nextflow run /home/quirin/Desktop/nextflow_test/workflow1.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt
+Jan-10 11:18:46.245 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.0
+Jan-10 11:18:46.276 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/root/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.2,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.0
+Jan-10 11:18:46.291 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jan-10 11:18:46.292 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jan-10 11:18:46.297 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jan-10 11:18:46.310 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jan-10 11:18:46.423 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Jan-10 11:18:46.449 [main] INFO  nextflow.cli.CmdRun - Launching `/home/quirin/Desktop/nextflow_test/workflow1.nf` [infallible_caravaggio] DSL2 - revision: 5d34d41667
+Jan-10 11:18:46.450 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jan-10 11:18:46.450 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jan-10 11:18:46.463 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /root/.nextflow/secrets/store.json
+Jan-10 11:18:46.473 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@1b32cd16] - activable => nextflow.secret.LocalSecretsProvider@1b32cd16
+Jan-10 11:18:46.563 [main] DEBUG nextflow.Session - Session UUID: 07349bca-9eff-4184-b885-4ac3b573eb5e
+Jan-10 11:18:46.563 [main] DEBUG nextflow.Session - Run name: infallible_caravaggio
+Jan-10 11:18:46.566 [main] DEBUG nextflow.Session - Executor pool size: 12
+Jan-10 11:18:46.576 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jan-10 11:18:46.584 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jan-10 11:18:46.619 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.0 build 5889
+  Created: 15-10-2023 15:07 UTC (17:07 CEST)
+  System: Linux 6.2.0-39-generic
+  Runtime: Groovy 3.0.19 on OpenJDK 64-Bit Server VM 17.0.9+9-Ubuntu-122.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 6395@Molpath-NB [127.0.1.1]
+  CPUs: 12 - Mem: 15 GB (10.8 GB) - Swap: 2 GB (2 GB)
+Jan-10 11:18:46.658 [main] DEBUG nextflow.Session - Work-dir: /home/quirin/Desktop/nextflow_test/work/aa/ba5a068037fd59a0e247798a2b53a4/work [ext2/ext3]
+Jan-10 11:18:46.658 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/quirin/Desktop/nextflow_test/bin
+Jan-10 11:18:46.670 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jan-10 11:18:46.685 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jan-10 11:18:46.720 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jan-10 11:18:46.736 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Jan-10 11:18:46.820 [main] DEBUG nextflow.Session - Session start
+Jan-10 11:18:48.266 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jan-10 11:18:48.276 [main] WARN  nextflow.script.ScriptBinding - `params.curr_dir` is defined multiple times -- Assignments following the first are ignored
+Jan-10 11:18:48.328 [main] ERROR nextflow.Nextflow - The specified input file does not exist: /home/quirin/Desktop/nextflow_test/work/aa/ba5a068037fd59a0e247798a2b53a4/results_test.txt

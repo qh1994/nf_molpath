@@ -1,0 +1,6 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `/home/quirin/Desktop/nextflow_test/workflow1.nf` [infallible_caravaggio] DSL2 - revision: 5d34d41667
+WARN: `params.curr_dir` is defined multiple times -- Assignments following the first are ignored
+ERROR ~ The specified input file does not exist: /home/quirin/Desktop/nextflow_test/work/aa/ba5a068037fd59a0e247798a2b53a4/results_test.txt
+
+ -- Check '.nextflow.log' file for details

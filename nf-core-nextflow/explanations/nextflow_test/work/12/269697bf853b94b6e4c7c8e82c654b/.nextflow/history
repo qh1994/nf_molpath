@@ -1,0 +1,1 @@
+2024-01-10 11:21:14	-	high_mahavira	-	4581e56269b4efc979f7eebfa0c96f5e	84766d66-170a-4356-9a85-ff50b6c2ba5a	nextflow run /home/quirin/Desktop/nextflow_test/workflow1.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt

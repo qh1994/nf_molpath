@@ -1,0 +1,5 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `/home/quirin/Desktop/nextflow_test/workflow1.nf` [high_mahavira] DSL2 - revision: 4581e56269
+ERROR ~ The specified input file does not exist: /home/quirin/Desktop/nextflow_test/work/12/269697bf853b94b6e4c7c8e82c654b/results_test.txt
+
+ -- Check '.nextflow.log' file for details

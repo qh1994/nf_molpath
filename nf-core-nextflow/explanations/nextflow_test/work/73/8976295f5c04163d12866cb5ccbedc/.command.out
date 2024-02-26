@@ -1,0 +1,25 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `/home/quirin/Desktop/nextflow_test/workflow1.nf` [gigantic_williams] DSL2 - revision: 4581e56269
+[-        ] process > rep_column -
+[-        ] process > multiply   -
+Next Fibonacci Number:
+1
+Next Fibonacci Number:
+2
+Next Fibonacci Number:
+3
+Next Fibonacci Number:
+5
+
+executor >  local (2)
+[d1/a5644d] process > rep_column [100%] 1 of 1 ✔
+[c0/eff63c] process > multiply   [100%] 1 of 1 ✔
+Next Fibonacci Number:
+1
+Next Fibonacci Number:
+2
+Next Fibonacci Number:
+3
+Next Fibonacci Number:
+5
+

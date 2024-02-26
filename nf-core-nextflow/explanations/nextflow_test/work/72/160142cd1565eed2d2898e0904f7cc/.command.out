@@ -1,0 +1,26 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `phytoy.nf` [hopeful_liskov] DSL2 - revision: 7e68076e85
+[-        ] process > align          -
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (1)
+[e6/901b6e] process > align (1)      [  0%] 0 of 1
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (1)
+[e6/901b6e] process > align (1)      [  0%] 0 of 1
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[e6/901b6e] process > align (1)      [100%] 1 of 1 ✔
+[a2/f099b9] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[e6/901b6e] process > align (1)      [100%] 1 of 1 ✔
+[a2/f099b9] process > get_raxml_tree [100%] 1 of 1 ✔
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+

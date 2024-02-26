@@ -1,0 +1,1 @@
+2024-01-10 11:25:20	2.6s	nasty_hypatia	OK	4581e56269b4efc979f7eebfa0c96f5e	e0554ad3-3bc9-45d3-930c-b44116db8645	nextflow run /home/quirin/Desktop/nextflow_test/workflow1.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt --curr_dir /home/quirin/Desktop/nextflow_test

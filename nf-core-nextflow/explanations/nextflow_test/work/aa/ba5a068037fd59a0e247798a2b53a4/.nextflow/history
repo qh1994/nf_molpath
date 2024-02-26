@@ -1,0 +1,1 @@
+2024-01-10 11:18:46	-	infallible_caravaggio	-	5d34d41667ec5892cca031450537f037	07349bca-9eff-4184-b885-4ac3b573eb5e	nextflow run /home/quirin/Desktop/nextflow_test/workflow1.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt

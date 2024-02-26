@@ -1,0 +1,1 @@
+2024-01-10 12:11:14	5.5s	magical_lumiere	OK	b0b202c8f007e16a3686125af24de698	3cad5553-12d4-4e98-9263-6b509481def1	nextflow run /home/quirin/Desktop/nextflow_test/phytoy-nf-master/phytoy.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt --pwd /home/quirin/Desktop/nextflow_test/phytoy-nf-master

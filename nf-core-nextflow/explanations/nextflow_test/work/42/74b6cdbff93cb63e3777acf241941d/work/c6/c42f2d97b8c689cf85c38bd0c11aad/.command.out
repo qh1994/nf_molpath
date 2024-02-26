@@ -1,0 +1,33 @@
+
+
+
+ CLUSTAL 2.1 Multiple Sequence Alignments
+
+
+Sequence format is Pearson
+Sequence 1: 1tvx_A        64 aa
+Sequence 2: 1prt_F        98 aa
+Sequence 3: 1sap_         66 aa
+Sequence 4: 1lt5_D       103 aa
+Start of Pairwise alignments
+Aligning...
+
+Sequences (1:2) Aligned. Score:  4
+Sequences (1:3) Aligned. Score:  9
+Sequences (1:4) Aligned. Score:  12
+Sequences (2:3) Aligned. Score:  9
+Sequences (2:4) Aligned. Score:  6
+Sequences (3:4) Aligned. Score:  13
+Guide tree file created:   [BB11025.dnd]
+
+There are 3 groups
+Start of Multiple Alignment
+
+Aligning...
+Group 1:                     Delayed
+Group 2:                     Delayed
+Group 3:                     Delayed
+Alignment Score -339
+
+PHYLIP-Alignment file created   [BB11025.phy]
+

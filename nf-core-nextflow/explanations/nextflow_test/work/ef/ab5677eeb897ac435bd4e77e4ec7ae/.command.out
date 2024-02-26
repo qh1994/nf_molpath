@@ -1,0 +1,80 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `phytoy.nf` [fabulous_bernard] DSL2 - revision: 7cc49aa864
+[-        ] process > align -
+
+[-        ] process > align          [  0%] 0 of 1
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (1)
+[88/c4f08f] process > align (1)      [  0%] 0 of 1
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[88/c4f08f] process > align (1)      [100%] 1 of 1 ✔
+[23/e91b0f] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[88/c4f08f] process > align (1)      [100%] 1 of 1 ✔
+[23/e91b0f] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+ERROR ~ Error executing process > 'get_raxml_tree'
+
+Caused by:
+  Process `get_raxml_tree` terminated with an error exit status (255)
+
+Command executed:
+
+  raxmlHPC -f d -j -p 9 -T 2 -m PROTGAMMALG -s /home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.phy -n test
+
+Command exit status:
+  255
+
+Command output:
+  Use raxml with AVX support with overriden number of threads
+  The file /home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.phy you want to open for reading does not exist, exiting ...
+
+Command error:
+  Use raxml with AVX support with overriden number of threads
+  The file /home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.phy you want to open for reading does not exist, exiting ...
+
+Work dir:
+  /home/quirin/Desktop/nextflow_test/phytoy-nf-master/work/23/e91b0fceb17d1cf7e8f715e6d6568a
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+ -- Check '.nextflow.log' file for details
+
+executor >  local (2)
+[88/c4f08f] process > align (1)      [100%] 1 of 1 ✔
+[23/e91b0f] process > get_raxml_tree [100%] 1 of 1, failed: 1 ✘
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+ERROR ~ Error executing process > 'get_raxml_tree'
+
+Caused by:
+  Process `get_raxml_tree` terminated with an error exit status (255)
+
+Command executed:
+
+  raxmlHPC -f d -j -p 9 -T 2 -m PROTGAMMALG -s /home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.phy -n test
+
+Command exit status:
+  255
+
+Command output:
+  Use raxml with AVX support with overriden number of threads
+  The file /home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.phy you want to open for reading does not exist, exiting ...
+
+Command error:
+  Use raxml with AVX support with overriden number of threads
+  The file /home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.phy you want to open for reading does not exist, exiting ...
+
+Work dir:
+  /home/quirin/Desktop/nextflow_test/phytoy-nf-master/work/23/e91b0fceb17d1cf7e8f715e6d6568a
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+ -- Check '.nextflow.log' file for details
+

@@ -1,0 +1,73 @@
+Jan-10 11:30:25.848 [main] DEBUG nextflow.cli.Launcher - $> nextflow run /home/quirin/Desktop/nextflow_test/workflow1.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt --curr_dir /home/quirin/Desktop/nextflow_test
+Jan-10 11:30:25.933 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.0
+Jan-10 11:30:25.962 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/root/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.2,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.0
+Jan-10 11:30:25.976 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jan-10 11:30:25.977 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jan-10 11:30:25.981 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jan-10 11:30:25.994 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jan-10 11:30:26.104 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Jan-10 11:30:26.130 [main] INFO  nextflow.cli.CmdRun - Launching `/home/quirin/Desktop/nextflow_test/workflow1.nf` [insane_meitner] DSL2 - revision: 4581e56269
+Jan-10 11:30:26.131 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jan-10 11:30:26.132 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jan-10 11:30:26.144 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /root/.nextflow/secrets/store.json
+Jan-10 11:30:26.153 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@1b32cd16] - activable => nextflow.secret.LocalSecretsProvider@1b32cd16
+Jan-10 11:30:26.242 [main] DEBUG nextflow.Session - Session UUID: a2f9d6be-2a5d-4e42-8592-e1133be5082f
+Jan-10 11:30:26.242 [main] DEBUG nextflow.Session - Run name: insane_meitner
+Jan-10 11:30:26.245 [main] DEBUG nextflow.Session - Executor pool size: 12
+Jan-10 11:30:26.255 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jan-10 11:30:26.262 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jan-10 11:30:26.297 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.0 build 5889
+  Created: 15-10-2023 15:07 UTC (17:07 CEST)
+  System: Linux 6.2.0-39-generic
+  Runtime: Groovy 3.0.19 on OpenJDK 64-Bit Server VM 17.0.9+9-Ubuntu-122.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 10392@Molpath-NB [127.0.1.1]
+  CPUs: 12 - Mem: 15 GB (9.5 GB) - Swap: 2 GB (2 GB)
+Jan-10 11:30:26.337 [main] DEBUG nextflow.Session - Work-dir: /home/quirin/Desktop/nextflow_test/work/7e/e090d20a93f59f2d36b9a5176a8a5b/work [ext2/ext3]
+Jan-10 11:30:26.337 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/quirin/Desktop/nextflow_test/bin
+Jan-10 11:30:26.351 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jan-10 11:30:26.368 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jan-10 11:30:26.404 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jan-10 11:30:26.419 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Jan-10 11:30:26.504 [main] DEBUG nextflow.Session - Session start
+Jan-10 11:30:27.835 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jan-10 11:30:28.122 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-10 11:30:28.122 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-10 11:30:28.129 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jan-10 11:30:28.136 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=15 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Jan-10 11:30:28.140 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jan-10 11:30:28.268 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-10 11:30:28.268 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-10 11:30:28.273 [main] INFO  nextflow.script.BaseScript - Next Fibonacci Number:
+Jan-10 11:30:28.277 [main] INFO  nextflow.script.BaseScript - 1
+Jan-10 11:30:28.277 [main] INFO  nextflow.script.BaseScript - Next Fibonacci Number:
+Jan-10 11:30:28.277 [main] INFO  nextflow.script.BaseScript - 2
+Jan-10 11:30:28.277 [main] INFO  nextflow.script.BaseScript - Next Fibonacci Number:
+Jan-10 11:30:28.278 [main] INFO  nextflow.script.BaseScript - 3
+Jan-10 11:30:28.278 [main] INFO  nextflow.script.BaseScript - Next Fibonacci Number:
+Jan-10 11:30:28.279 [main] INFO  nextflow.script.BaseScript - 5
+Jan-10 11:30:28.280 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: write_line_to_file, multiply, rep_column
+Jan-10 11:30:28.281 [main] DEBUG nextflow.Session - Igniting dataflow network (6)
+Jan-10 11:30:28.289 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > rep_column
+Jan-10 11:30:28.290 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > multiply
+Jan-10 11:30:28.291 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_44a28969f1dc4b68: /home/quirin/Desktop/nextflow_test/workflow1.nf
+Jan-10 11:30:28.291 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jan-10 11:30:28.291 [main] DEBUG nextflow.Session - Session await
+Jan-10 11:30:28.473 [Actor Thread 13] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 8; slices: 1; internal sort time: 0.019 s; external sort time: 0.003 s; total time: 0.022 s
+Jan-10 11:30:28.480 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-10 11:30:28.482 [Actor Thread 13] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/quirin/Desktop/nextflow_test/work/7e/e090d20a93f59f2d36b9a5176a8a5b/work/collect-file/3b1d73a97e11c0e722500aca7b32607a
+Jan-10 11:30:28.482 [Task submitter] INFO  nextflow.Session - [dc/cdbc31] Submitted process > multiply
+Jan-10 11:30:28.495 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-10 11:30:28.496 [Task submitter] INFO  nextflow.Session - [02/38f540] Submitted process > rep_column
+Jan-10 11:30:28.497 [Actor Thread 13] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-15967397166503363203
+Jan-10 11:30:28.509 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: multiply; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/Desktop/nextflow_test/work/7e/e090d20a93f59f2d36b9a5176a8a5b/work/dc/cdbc3197eb6c44f93af3064f54a594]
+Jan-10 11:30:28.543 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: rep_column; status: COMPLETED; exit: 0; error: -; workDir: /home/quirin/Desktop/nextflow_test/work/7e/e090d20a93f59f2d36b9a5176a8a5b/work/02/38f5401930b1a14738c54a5144cf43]
+Jan-10 11:30:28.555 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jan-10 11:30:28.558 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Jan-10 11:30:28.558 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jan-10 11:30:28.565 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=2; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=26ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+Jan-10 11:30:28.758 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jan-10 11:30:28.783 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Jan-10 11:30:28.784 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

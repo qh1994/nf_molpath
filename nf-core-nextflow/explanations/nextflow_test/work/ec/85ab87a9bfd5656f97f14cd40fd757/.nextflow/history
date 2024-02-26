@@ -1,0 +1,1 @@
+2024-01-10 11:19:07	2.8s	goofy_thompson	OK	2db3ab2a19a673bc0b74236c73276401	83f8d929-fe77-46bd-bb06-16f5e7d0c8a2	nextflow run /home/quirin/Desktop/nextflow_test/workflow1.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt

@@ -1,0 +1,21 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `phytoy.nf` [gloomy_bell] DSL2 - revision: e7e9799a34
+[-        ] process > align          -
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (1)
+[33/6cfe73] process > align (1)      [  0%] 0 of 1
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[33/6cfe73] process > align (1)      [100%] 1 of 1 ✔
+[6d/10b43f] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+
+executor >  local (2)
+[33/6cfe73] process > align (1)      [100%] 1 of 1 ✔
+[6d/10b43f] process > get_raxml_tree [100%] 1 of 1 ✔
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+

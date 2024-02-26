@@ -1,0 +1,1 @@
+2024-01-10 11:16:29	-	ridiculous_lagrange	-	4581e56269b4efc979f7eebfa0c96f5e	c5317d4c-3dab-4060-9fba-e167be2a0043	nextflow run /home/quirin/Desktop/nextflow_test/workflow1.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt

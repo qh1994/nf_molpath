@@ -1,0 +1,41 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `/home/quirin/Desktop/nextflow_test/workflow1.nf` [silly_pauling] DSL2 - revision: bc5f118281
+[-        ] process > rep_column -
+[-        ] process > multiply   -
+Next Fibonacci Number:
+1
+Next Fibonacci Number:
+2
+Next Fibonacci Number:
+3
+Next Fibonacci Number:
+5
+
+[-        ] process > rep_column -
+[-        ] process > multiply   -
+Next Fibonacci Number:
+1
+Next Fibonacci Number:
+2
+Next Fibonacci Number:
+3
+Next Fibonacci Number:
+5
+ERROR ~ Invalid method invocation `multiply_2` with arguments: 10 (org.codehaus.groovy.runtime.GStringImpl), 22 (java.lang.Integer)
+
+ -- Check script '/home/quirin/Desktop/nextflow_test/workflow1.nf' at line: 113 or see '.nextflow.log' file for more details
+
+[-        ] process > rep_column [  0%] 0 of 1
+[-        ] process > multiply   [  0%] 0 of 1
+Next Fibonacci Number:
+1
+Next Fibonacci Number:
+2
+Next Fibonacci Number:
+3
+Next Fibonacci Number:
+5
+ERROR ~ Invalid method invocation `multiply_2` with arguments: 10 (org.codehaus.groovy.runtime.GStringImpl), 22 (java.lang.Integer)
+
+ -- Check script '/home/quirin/Desktop/nextflow_test/workflow1.nf' at line: 113 or see '.nextflow.log' file for more details
+

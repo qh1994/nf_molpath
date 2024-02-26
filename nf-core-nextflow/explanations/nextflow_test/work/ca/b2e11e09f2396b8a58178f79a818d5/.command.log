@@ -1,0 +1,73 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `phytoy.nf` [stupefied_wilson] DSL2 - revision: b0b202c8f0
+[-        ] process > align          -
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11021.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11025.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11001.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11029.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11013.tfa
+
+executor >  local (5)
+[d4/10b350] process > align (1)      [  0%] 0 of 5
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11021.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11025.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11001.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11029.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11013.tfa
+
+executor >  local (5)
+[d4/10b350] process > align (1)      [  0%] 0 of 5
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11021.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11025.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11001.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11029.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11013.tfa
+
+executor >  local (5)
+[6a/d11237] process > align (3)      [ 20%] 1 of 5
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11021.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11025.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11001.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11029.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11013.tfa
+
+executor >  local (5)
+[ab/3c6b00] process > align (2)      [ 60%] 3 of 5
+[-        ] process > get_raxml_tree -
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11021.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11025.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11001.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11029.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11013.tfa
+
+executor >  local (6)
+[d4/10b350] process > align (1)      [100%] 5 of 5 ✔
+[e6/0b6684] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11021.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11025.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11001.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11029.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11013.tfa
+
+executor >  local (6)
+[d4/10b350] process > align (1)      [100%] 5 of 5 ✔
+[e6/0b6684] process > get_raxml_tree [  0%] 0 of 1
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11021.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11025.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11001.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11029.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11013.tfa
+
+executor >  local (6)
+[d4/10b350] process > align (1)      [100%] 5 of 5 ✔
+[e6/0b6684] process > get_raxml_tree [100%] 1 of 1 ✔
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11021.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11025.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11001.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11029.tfa
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/data/BB11013.tfa
+

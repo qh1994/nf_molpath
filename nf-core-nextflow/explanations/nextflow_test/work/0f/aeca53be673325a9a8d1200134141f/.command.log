@@ -1,0 +1,35 @@
+N E X T F L O W  ~  version 23.10.0
+Launching `phytoy.nf` [focused_bardeen] DSL2 - revision: 290814ad4e
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+ERROR ~ Error executing process > 'align (1)'
+
+Caused by:
+  No such variable: pwd -- Check script 'phytoy.nf' at line: 18
+
+Source block:
+  """
+        #clustalw -infile=$seq -output=phylip -outfile=${seq.baseName}.phy
+        clustalw -infile=$seq -output=phylip -outfile=$pwd/${seq.baseName}.phy
+        cat $pwd/${seq.baseName}.phy>${seq.baseName}.phy
+    """
+
+Tip: when you have fixed the problem you can continue the execution adding the option `-resume` to the run command line
+
+ -- Check '.nextflow.log' file for details
+
+/home/quirin/Desktop/nextflow_test/phytoy-nf-master/test.fasta
+ERROR ~ Error executing process > 'align (1)'
+
+Caused by:
+  No such variable: pwd -- Check script 'phytoy.nf' at line: 18
+
+Source block:
+  """
+        #clustalw -infile=$seq -output=phylip -outfile=${seq.baseName}.phy
+        clustalw -infile=$seq -output=phylip -outfile=$pwd/${seq.baseName}.phy
+        cat $pwd/${seq.baseName}.phy>${seq.baseName}.phy
+    """
+
+Tip: when you have fixed the problem you can continue the execution adding the option `-resume` to the run command line
+
+ -- Check '.nextflow.log' file for details

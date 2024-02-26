@@ -1,0 +1,1 @@
+2024-01-10 12:05:13	1.4s	infallible_hilbert	OK	b0b202c8f007e16a3686125af24de698	eae49b65-76dd-4008-b372-d5df9f7ab54e	nextflow run /home/quirin/Desktop/nextflow_test/phytoy-nf-master/phytoy.nf --tmpout /home/quirin/Desktop/nextflow_test/temp_out.txt --curr_dir /home/quirin/Desktop/nextflow_test/phytoy-nf-master
