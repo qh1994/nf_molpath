@@ -261,11 +261,11 @@ process run_TERT_detection{
 
 input: path(vep_output)
 
-output: val("Done TERT!")
+output: path("/opt/nf_molpath/nf-core-nextflow/tert_out.txt")
 
 script:
 """
-sudo python3 /home/qheiss/extract_TERTprom.py $vep_output
+sudo python3 /home/qheiss/extract_TERTprom.py $vep_output >/opt/nf_molpath/nf-core-nextflow/tert_out.txt
 """
 }
 
@@ -345,7 +345,7 @@ workflow NFCORE_NEXTFLOW {
     i_vcf_file=outputs_1.map{it->it[2]}
     fastq_file.view()
     /*fastq_file_2=Channel.fromPath("/home/quirin/fastq_file.fastq").first()*/
-    fastq_output_file = runHLA(fastq_file).collect()
+    /*fastq_output_file = runHLA(fastq_file).collect()*/
     outputX = runFusionCatcher(bamfile).collect()
     outputY = runArriba(bamfile).collect()
     runTranslocations(outputX.first(),outputY.first())
