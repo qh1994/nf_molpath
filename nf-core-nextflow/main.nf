@@ -57,7 +57,6 @@ WorkflowMain.initialise(workflow, params, log, args)
 
 include { NEXTFLOW } from './workflows/nextflow'
 
-
 process runHLA{
 
 input: path("fastq_file.fastq")
