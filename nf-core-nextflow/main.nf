@@ -265,7 +265,7 @@ output: val("Done TERT!")
 
 script:
 """
-sudo python3 extract_TERTprom.py $vep_output
+sudo python3 /home/qheiss/extract_TERTprom.py $vep_output
 """
 }
 
