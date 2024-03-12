@@ -265,6 +265,7 @@ output: val("Done TERT!")
 
 script:
 """
+sudo python3 extract_TERTprom.py $vep_output
 """
 }
 
@@ -354,7 +355,8 @@ workflow NFCORE_NEXTFLOW {
     vcf_merged = mergevcf(vcf_file_1).collect()
     vep_output = run_vep(vcf_merged).collect()
     runCNV(bamfile,vep_output)
-    run_TERT_detection(vep_output)
+    new_channel=Channel.fromPath("/mnt/panda23/seq_data/nextseq/231017_NDX550280_0316_AHG7J3BGXV/CurrentDragenHRDAnalysis/Results/V-2023-01902/V-2023-01902_DNA/V-2023-01902_DNA.hard-filtered.vcf")
+    run_TERT_detection(new_channel)
     run_TMB(vep_output)
     run_pVACtools(vep_output)
     run_mutsig(vep_output)
