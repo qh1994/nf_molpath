@@ -1,0 +1,6 @@
+sample,fastq_1,fastq_2,bam,seq_type
+DNPM-18_NG,,,/home/qheiss/old/old/WES_Pilot/230929_A01542_0078_BHWNTKDRX2/results/preprocessing/mapped/DNPM-18_NG/DNPM-18_NG.bam,dna
+DNPM-20,,,/home/qheiss/old/old/WES_Pilot/230929_A01542_0078_BHWNTKDRX2/results/preprocessing/mapped/DNPM-20/DNPM-20.bam,dna
+DNPM-18,,,/home/qheiss/old/old/WES_Pilot/230929_A01542_0078_BHWNTKDRX2/results/preprocessing/mapped/DNPM-18/DNPM-18.bam,dna
+E-338-2023_NG,,,/home/qheiss/old/old/WES_Pilot/230929_A01542_0078_BHWNTKDRX2/results/preprocessing/mapped/E-338-2023_NG/E-338-2023_NG.bam,dna
+DNPM-20_NG,,,/home/qheiss/old/old/WES_Pilot/230929_A01542_0078_BHWNTKDRX2/results/preprocessing/mapped/DNPM-20_NG/DNPM-20_NG.bam,dna
