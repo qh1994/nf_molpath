@@ -261,11 +261,12 @@ process run_TERT_detection{
 
 input: path(vep_output)
 
-output: path("/opt/nf_molpath/nf-core-nextflow/tert_out.txt")
+output: path("tert_out.txt")
 
 script:
 """
 sudo python3 /home/qheiss/extract_TERTprom.py $vep_output >/opt/nf_molpath/nf-core-nextflow/tert_out.txt
+cp /opt/nf_molpath/nf-core-nextflow/tert_out.txt tert_out.txt
 """
 }
 
