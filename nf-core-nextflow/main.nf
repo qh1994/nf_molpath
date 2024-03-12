@@ -57,15 +57,20 @@ WorkflowMain.initialise(workflow, params, log, args)
 
 include { NEXTFLOW } from './workflows/nextflow'
 
-
 process runHLA{
 
 input: path("fastq_file.fastq")
 output: path("fastq_output_file.fastq")
 
 """
+pwd1=\$PWD
+inputfolder="/home/qheiss/old/old/WES_Pilot/230929_A01542_0078_BHWNTKDRX2"
 echo "done" >$params.curr_dir/fastq_output_file.fastq
 cp $params.curr_dir/fastq_output_file.fastq fastq_output_file.fastq
+python3 /opt/nf_molpath/nf-core-nextflow/create_hla_sheet.py \$inputfolder
+cd /home/qheiss/old/old
+sudo nextflow run nf-core/hlatyping -r 2.0.0 -work-dir /home/qheiss/old/old/tmp --input /opt/nf_molpath/nf-core-nextflow/hla_samplesheet.csv --outdir /opt/nf_molpath/nf-core-nextflow/hla_res/ --genome GRCh37 -profile docker --igenomes_base /home/qheiss/old/old/igenomes --max_cpus 4
+cd \$pwd1
 """
 
 }
